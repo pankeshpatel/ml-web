@@ -113,3 +113,7 @@ Tutorial Series by Total Data Science @  https://tinyurl.com/yyja24z2
  2. to  build an appropriate Machine Learning Model that will help various Zomato Restaurants to predict 
     their respective Ratings based on certain features DEPLOY the Machine learning model via Flask that can be use…
 
+#### grocessary web app
+
+In this python project, we will build a grocery store management application. It will be 3 tier application,
+
