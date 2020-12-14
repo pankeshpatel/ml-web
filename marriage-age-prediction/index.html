@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Age of Marriage Prediction</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<style type="text/css">
+*{margin:0;padding:0;box-sizing:border-box}body,html{height:100%;font-family:Poppins-Regular,sans-serif}a{font-family:Poppins-Regular;font-size:14px;line-height:1.7;color:#666;margin:0;transition:all .4s;-webkit-transition:all .4s;-o-transition:all .4s;-moz-transition:all .4s}a:focus{outline:0!important}a:hover{text-decoration:none}h1,h2,h3,h4,h5,h6{margin:0}input{outline:0;border:none}input:focus::-webkit-input-placeholder{color:transparent}input:focus:-moz-placeholder{color:transparent}input:focus::-moz-placeholder{color:transparent}input:focus:-ms-input-placeholder{color:transparent}input::-webkit-input-placeholder{color:#adadad}input:-moz-placeholder{color:#adadad}input::-moz-placeholder{color:#adadad}input:-ms-input-placeholder{color:#adadad}button{outline:0!important;border:none;background:0 0}button:hover{cursor:pointer}.container{max-width:1200px}.container-contact100{width:100%;min-height:100vh;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;padding:15px;background:#a64bf4;background:-webkit-linear-gradient(45deg,#00dbde,#fc00ff);background:-o-linear-gradient(45deg,#00dbde,#fc00ff);background:-moz-linear-gradient(45deg,#00dbde,#fc00ff);background:linear-gradient(45deg,#00dbde,#fc00ff)}.wrap-contact100{width:500px;background:#fff;border-radius:10px;overflow:hidden;padding:42px 55px 45px 55px}.contact100-form{width:100%}.contact100-form-title{display:block;font-family:Poppins-Bold;font-size:39px;color:#333;line-height:1.2;text-align:center;padding-bottom:10px}.wrap-input100{width:100%;position:relative;border-bottom:2px solid #d9d9d9;padding-bottom:10px;margin-bottom:15px}.input100{display:block;width:100%;background:0 0;font-family:Poppins-Medium;font-size:18px;color:#333;line-height:1.2;padding:0 5px}.focus-input100{position:absolute;display:block;width:100%;height:100%;top:0;left:0;pointer-events:none}.focus-input100::before{content:"";display:block;position:absolute;bottom:-2px;left:0;width:0;height:2px;-webkit-transition:all .4s;-o-transition:all .4s;-moz-transition:all .4s;transition:all .4s;background:#7f7f7f}input.input100{height:40px}.input100:focus+.focus-input100::before{width:100%}.has-val.input100+.focus-input100::before{width:100%}.container-contact100-form-btn{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;justify-content:center;padding-top:13px}.wrap-contact100-form-btn{width:100%;display:block;position:relative;z-index:1;border-radius:25px;overflow:hidden;margin:0 auto}.contact100-form-bgbtn{position:absolute;z-index:-1;width:300%;height:100%;background:#a64bf4;background:-webkit-linear-gradient(left,#00dbde,#fc00ff,#00dbde,#fc00ff);background:-o-linear-gradient(left,#00dbde,#fc00ff,#00dbde,#fc00ff);background:-moz-linear-gradient(left,#00dbde,#fc00ff,#00dbde,#fc00ff);background:linear-gradient(left,#00dbde,#fc00ff,#00dbde,#fc00ff);top:0;left:-100%;-webkit-transition:all .4s;-o-transition:all .4s;-moz-transition:all .4s;transition:all .4s}.contact100-form-btn{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;justify-content:center;align-items:center;padding:0 20px;width:100%;height:50px;font-family:Poppins-Medium;font-size:16px;color:#fff;line-height:1.2}.wrap-contact100-form-btn:hover .contact100-form-bgbtn{left:0}.contact100-form-btn i{-webkit-transition:all .4s;-o-transition:all .4s;-moz-transition:all .4s;transition:all .4s}.contact100-form-btn:hover i{-webkit-transform:translateX(10px);-moz-transform:translateX(10px);-ms-transform:translateX(10px);-o-transform:translateX(10px);transform:translateX(10px)}@media (max-width:576px){.wrap-contact100{padding:72px 15px 65px 15px}}.wrap-contact100{width:800px;background:#fff;border-radius:10px;overflow:hidden;padding:42px 55px 45px 55px}.contact100-form-title{font-size:26px}
+</style>
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" action="/action_page.php" >
+				<span class="contact100-form-title" style="font-size:32px">Artificial Intelligence Marriage Year Prediction</span>
+				<span class="contact100-form-title" id="output" style="color: #ff0000;" >&nbsp;</span>
+				
+				<div class="wrap-input100 " >
+					<span class="label-input100">Year of Birth (YYYY)</span>
+					<input class="input100" type="text" id="yob" name="yob" placeholder="Year of Birth (YYYY) ex: 1980">
+					<span class="focus-input100"></span>
+				</div>
+				
+				<div class="wrap-input100 " >
+					<span class="label-input100">Height (Centimeter)</span>
+					<input class="input100" type="text" id="height_cms" name="height_cms" placeholder="Height (Centimeters) ex: 175">
+					<span class="focus-input100"></span>
+				</div>
+				
+				<div class="wrap-input100 " >
+					<span class="label-input100">Gender</span>
+					<select  class="input100" id="gender" name="gender" style="padding: 10px 5px;margin-top: 15px;border: 2px solid #d9d9d9;" >
+							<option value="">Select Gender</option>
+							<option value="0">Female</option>
+							<option value="1">Male</option>
+						</select>
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100" style="border-bottom: 0px;" >
+					<span class="label-input100">Religion</span>
+						<select  class="input100" id="religion" name="religion" style="padding: 10px 5px;margin-top: 15px;border: 2px solid #d9d9d9;" >
+							<option value="">Select Religion</option>
+							<option value="0">Christian</option>
+							<option value="1">Hindu</option>
+							<option value="2">Jain</option>
+							<option value="3">Muslim</option>
+							<option value="4">Sikh</option>
+						</select>
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100" style="border-bottom: 0px;" >
+					<span class="label-input100">Caste</span>
+						<select class="input100"  id="caste" name="caste" style="padding: 10px 5px;margin-top: 15px;border: 2px solid #d9d9d9;" >
+							<option value="">Select Caste</option>
+							<option value="0">Agarwal</option>
+							<option value="1">Agri</option>
+							<option value="2">Ahom</option>
+							<option value="3">Arora</option>
+							<option value="4">Arya Vysya</option>
+							<option value="5">Baidya</option>
+							<option value="6">Baishnab</option>
+							<option value="7">Baishya</option>
+							<option value="8">Balija</option>
+							<option value="9">Baniya</option>
+							<option value="10">Bhandari</option>
+							<option value="11">Bhatia</option>
+							<option value="12">Billava</option>
+							<option value="14">Brahmin</option>
+							<option value="14">Chowdhary</option>
+							<option value="15">Goud</option>
+							<option value="16">Gursikh</option>
+							<option value="17">Kaibarta</option>
+							<option value="18">Kalita</option>
+							<option value="19">Kamma</option>
+							<option value="19">Kapu</option>
+							<option value="19">Kayastha</option>
+							<option value="20">Khatri</option>
+							<option value="21">Kshatriya</option>
+							<option value="22">Lingayath</option>
+							<option value="23">Marthoma</option>
+							<option value="24">Memon</option>
+							<option value="24">Naidu</option>
+							<option value="25">OBC - Barber/Naayee</option>
+							<option value="26">Panchal</option>
+							<option value="27">Patel</option>
+							<option value="28">Reddy</option>
+							<option value="30">Roman Catholic</option>
+							<option value="29">Ramdasia</option>
+							<option value="30">Roman Catholic</option>
+							<option value="31">Sahu</option>
+							<option value="32">Saini</option>
+							<option value="33">Scheduled Caste (SC)</option>
+							<option value="34">Shwetamber</option>
+							<option value="35">Sindhi-Sakkhar</option>
+							<option value="36">Thakur</option>
+							<option value="37">Vaishnav</option>
+							<option value="38">Valmiki</option>
+							<option value="39">Vanniyar</option>
+							<option value="40">Viswabrahmin</option>
+							<option value="8">Yadava / Golla</option>
+							<option value="42">Others Castes</option>
+						</select>
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100" style="border-bottom: 0px;" >
+					<span class="label-input100">Mother Tongue</span>
+						<select class="input100"  id="mother_tongue" name="mother_tongue" style="padding: 10px 5px;margin-top: 15px;border: 2px solid #d9d9d9;" >
+							<option value="">Select Mother Tongue</option>
+							<option value="0">Aka</option>
+							<option value="1">Assamese</option>
+							<option value="2">Bengali</option>
+							<option value="3">Bhojpuri</option>
+							<option value="4">Chattisgarhi</option>
+							<option value="5">English</option>
+							<option value="6">Gujarati</option>
+							<option value="7">Haryanavi</option>
+							<option value="8">Hindi</option>
+							<option value="9">Kannada</option>
+							<option value="10">Kashmiri</option>
+							<option value="11">Konkani</option>
+							<option value="12">Kutchi</option>
+							<option value="13">Malayalam</option>
+							<option value="14">Manipuri</option>
+							<option value="15">Marathi</option>
+							<option value="16">Marwari</option>
+							<option value="17">Nepali</option>
+							<option value="18">Odia</option>
+							<option value="19">Other</option>
+							<option value="20">Punjabi</option>
+							<option value="21">Rajasthani</option>
+							<option value="22">Sindhi</option>
+							<option value="23">Tamil</option>
+							<option value="24">Telugu</option>
+							<option value="25">Tulu</option>
+							<option value="26">Urdu</option>
+						</select>
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100" style="border-bottom: 0px;" >
+					<span class="label-input100">Country</span>
+						<select class="input100"  id="country" name="country" style="padding: 10px 5px;margin-top: 15px;border: 2px solid #d9d9d9;" >
+							<option value="">Select Country</option>
+							<option value="0">Australia</option>
+							<option value="1">Bahrain</option>
+							<option value="2">Bangladesh</option>
+							<option value="3">Canada</option>
+							<option value="4">Germany</option>
+							<option value="5">India</option>
+							<option value="6">Ireland</option>
+							<option value="7">Kuwait</option>
+							<option value="8">Malaysia</option>
+							<option value="9">Myanmar</option>
+							<option value="10">Netherlands</option>
+							<option value="11">New Zealand</option>
+							<option value="12">Norway</option>
+							<option value="13">Oman</option>
+							<option value="14">Pakistan</option>
+							<option value="15">Philippines</option>
+							<option value="16">Qatar</option>
+							<option value="17">Singapore</option>
+							<option value="18">South Africa</option>
+							<option value="19">USA</option>
+							<option value="20">United Arab Emirates</option>
+							<option value="21">United Kingdom</option>
+						</select>
+					<span class="focus-input100"></span>
+				</div>
+				
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn" id='submit' type="submit" value="Submit">Submit</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$('#submit').click(function(event){    
+		  event.preventDefault();     
+		  var exist_response = $.ajax({type:"GET",url:"http://13.250.101.192/predict",data:"gender="+$('#gender').val()+"&height_cms="+$('#height_cms').val()+"&caste="+$('#caste').val()+"&religion="+$('#religion').val()+"&mother_tongue="+$('#mother_tongue').val()+"&country="+$('#country').val(),async: false}).responseText;
+		  $('#output').text("Your Predicted Year of Marriage : "+ String(parseInt(exist_response.split(".")[0]) + parseInt($('#yob').val())));
+		});
+	</script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,48 @@
+Notes:  Predicing Year of Marriage - EC2 deployment 
+Create ec2 server, set appropriate security groups conf and save private key (pem)
+Using puttygen to convert private pem key to ppk (for MAC this is not necessary)
+
+Login into ec2 server
+
+Commands:
+python3 -V
+
+curl -O https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+
+sudo apt-get update
+
+sudo pip install flask, flask_cors, sklearn, apache2 , libapache2-mod-wsgi-py3
+
+Configure  /etc/apache2/sites-enabled/000-default.conf
+
+------- Apache Host file configuration
+------- file: /etc/apache2/sites-enabled/000-default.conf add this below content 
+DocumentRoot /home/ubuntu/mlapp
+WSGIDaemonProcess flaskapp threads=5 python-home=/usr/local/lib/python3.5/site-packages/ user=ubuntu
+        WSGIScriptAlias / /home/ubuntu/mlapp/flaskapp.wsgi
+<Directory /home/ubuntu/mlapp>
+            WSGIProcessGroup flaskapp
+            WSGIApplicationGroup %{GLOBAL}
+            Require all granted
+        </Directory>
+———————
+
+Create directory  /home/ubuntu/mlapp
+Create file flaskapp.wsgi  at mlapp directory with content below
+
+----------------- file : Flaskapp.wsgi
+import sys
+import site
+site.addsitedir(‘/home/ubuntu/.local/lib/python3.5/site-packages’)
+sys.path.insert(0, ‘/home/ubuntu/mlapp’)
+from app import app as application
+------------
+
+copy app.py and predict_model.ml files to EC2  /home/ubuntu/mlapp
+(recommended winscp app in windows, scp command line in Mac)
+
+sudo apachectl restart
+
+On succesful deployment, below url should work and return predicted age of marriage.
+http://<your API public ip>/predict?gender=1&caste=2&religion=2&mother_tongue=5&country=4&height_cms=176
