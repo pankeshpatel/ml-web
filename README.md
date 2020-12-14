@@ -5,7 +5,7 @@ Technology stack
 - postman, visual code, pycharm, jupyter notebook
 
 
-- Tutorial series @ CodeStudio (endtoend-ml-projects)
+#### Tutorial series @ CodeStudio (endtoend-ml-projects)
 
 1. Project 1 - Model to Predict Employee Retension 
    @ https://tinyurl.com/y6pdv9v5
@@ -13,16 +13,17 @@ Technology stack
    @ https://tinyurl.com/y3c48ou7 
 
 
-- House Price Prediction
+#### House Price Prediction
 
 Tutorial by ML guru on this @ https://tinyurl.com/y6hpsxqz
 
 
-- Car-Price-Prediction
+#### Car-Price-Prediction
 
 Tutorial by Krish Naik @ https://www.youtube.com/watch?v=p_tpQSY1aTs
 
-- Forest-Fire-Prediction-Website
+
+#### Forest-Fire-Prediction-Website
 
 A website that predicts the probability of a forest fire taking place based on oxygen,temperature and humidity content
 Instructions for Pycharm :
@@ -32,7 +33,7 @@ Instructions for Pycharm :
 3. Complete explanation and tutorial on my youtube channel :https://www.youtube.com/watch?v=Pc8WdnIdXZg
 
 
-- Fuel Consumption
+#### Fuel Consumption
 
 Data Science with Harshit @ https://tinyurl.com/y533m3c8
 
@@ -55,14 +56,14 @@ Code
 
 Jupyter Notebook for ML model : https://tinyurl.com/y5r4keuk
 
-- House Price Prediction
+#### House Price Prediction
 
 1. Tutorial by ML guru on this @ https://tinyurl.com/y6hpsxqz
 2. Dataset Used: https://www.kaggle.com/quantbruce/real-estate-price-prediction/download
 
 
 
-- Image classification 
+#### Image classification 
 
 Excellent tutorial Series by Dhaval Patel (Codebasics)
 Tutorial Series link - https://tinyurl.com/yxobwajo
@@ -82,10 +83,10 @@ Tutorial Series:
 Here is the video playlist for entire project: https://www.youtube.com/playlist?list=PLeo1K3hjS3uvaRHZLl-jLovIjBP14QTXc
 
 
--  Marriage Age Prediction by DataMites
+#### Marriage Age Prediction by DataMites
    @ https://tinyurl.com/y5xjt5wu
    
-# Tutorial Series
+Tutorial Series
   1. Predicting Year of Marriage - End to End Machine Learning Deployment with FLASK and AWS -PART 1
      @ https://tinyurl.com/yxrgm7ks
 
@@ -93,17 +94,17 @@ Here is the video playlist for entire project: https://www.youtube.com/playlist?
     @ https://tinyurl.com/y6mcutlx
 
 
-- FlaskApp
+#### FlaskApp
 
 Simple application with authentication and CRUD functionality using the Python Flask micro-framework
 
 
-- Real estate price prediction 
+#### Real estate price prediction 
 
  Tutorial by Dhaval Patel (Codebasics) : https://tinyurl.com/y56d7g8y
 
 
-- Zomato App
+#### Zomato App
 
 Tutorial Series by Total Data Science @  https://tinyurl.com/yyja24z2 
 
