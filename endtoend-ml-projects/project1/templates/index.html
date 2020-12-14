@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+
+    <title>CODESTUDIO | Employee Churn</title>
+
+</head>
+<body>
+
+    <div class="container">
+  <div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4" src="/static/img/CODESTUDIO_LOGO_100px.png" alt="">
+    <h2>Predict Employee Retention</h2>
+    <p class="lead">Below is an example form built to predict the HR Employee Retention in an Organization</p>
+  </div>
+
+  <div class="row">
+  <div class="col-md-2">
+  </div>
+    <div class="col-md-8">
+      <h4 class="mb-3">Employee Details</h4>
+
+
+   <div id="result"></div>
+
+      <form id="predictForm" class="needs-validation" >
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="satisfaction_level">Satisfaction Level</label>
+            <input type="text" class="form-control" id="satisfaction_level" placeholder="" value="" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="last_evaluation">Last Evaluation</label>
+            <input type="text" class="form-control" id="last_evaluation" placeholder="" value="" required>
+          </div>
+        </div>
+
+		<div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="number_project">Number Of Project</label>
+            <input type="text" class="form-control" id="number_project" placeholder="" value="" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="average_montly_hours">Average Montly Hours</label>
+            <input type="text" class="form-control" id="average_montly_hours" placeholder="" value="" required>
+          </div>
+        </div>
+
+
+		<div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="time_spend_company">Time Spend Company</label>
+            <input type="text" class="form-control" id="time_spend_company" placeholder="" value="" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="work_accident">Work Accident</label>
+            <input type="text" class="form-control" id="work_accident" placeholder="" value="" required>
+          </div>
+        </div>
+
+		<div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="promotion_last_5years">Promotion Last 5years</label>
+            <input type="text" class="form-control" id="promotion_last_5years" placeholder="" value="" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="salary">Salary</label>
+            <input type="text" class="form-control" id="salary" placeholder="" value="" required>
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+
+
+
+
+        </div>
+<div class="col-md-2">
+  </div>
+
+      </form>
+
+    </div>
+  </div>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2019-2020 CODESTUDIO</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+</div>
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $("#predictForm" ).submit(function( event ) {
+
+  // Stop form from submitting normally
+     event.preventDefault();
+
+  // Get some values from elements on the page:
+      var $form = $( this )
+      satisfaction_level = $form.find("input[id='satisfaction_level']" ).val()
+      last_evaluation = $form.find("input[id='last_evaluation']" ).val()
+      number_project = $form.find("input[id='number_project']" ).val()
+      average_montly_hours = $form.find("input[id='average_montly_hours']" ).val()
+      time_spend_company = $form.find("input[id='time_spend_company']" ).val()
+      work_accident = $form.find("input[id='work_accident']" ).val()
+      promotion_last_5years = $form.find("input[id='promotion_last_5years']" ).val()
+      salary = $form.find("input[id='salary']" ).val()
+
+     var settings = {
+  "url": "http://localhost:5000/prediction",
+  "method": "POST",
+  "timeout": 0,
+  "headers": {
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  "data": {
+    "satisfaction_level": satisfaction_level,
+    "last_evaluation": last_evaluation,
+    "number_project": number_project,
+    "average_montly_hours": average_montly_hours,
+    "time_spend_company": time_spend_company,
+    "work_accident": work_accident,
+    "promotion_last_5years": promotion_last_5years,
+    "salary": salary
+  }
+};
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+  $( "#result" ).empty().append('<div class="alert alert-success" role="alert">'+response+'</div>' );
+});
+
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{	"NumberofColumns" : 9,
+	"ColName": {
+      "empid" : "INTEGER",
+      "satisfaction_level" : "FLOAT",
+      "last_evaluation" : "FLOAT",
+      "number_project" : "INTEGER",
+      "average_montly_hours" : "INTEGER",
+      "time_spend_company" : "INTEGER",
+      "Work_accident" : "INTEGER",
+      "promotion_last_5years" : "INTEGER",
+      "salary" : "VARCHAR"
+	}
+}

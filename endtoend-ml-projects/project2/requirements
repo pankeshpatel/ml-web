@@ -1,0 +1,11 @@
+Flask==1.1.1 # flask lib
+matplotlib==3.1.2 #matplotlib
+numpy==1.18.1 #numpy
+pandas==0.25.3 # pandas
+scikit-learn==0.22.1 # to get model lib
+Jinja2==2.11.0 #Flask is based on the Jinja2 template engine
+Werkzeug==0.16.1 #Flask is based on the Werkzeug WSGI toolkit
+itsdangerous==1.1.0 #Various helpers to pass data to untrusted environments and to get it back safe and sound. Data is cryptographically signed to ensure that a token has not been tampered with.
+certifi==2019.11.28 #Certifi is a carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts.
+MarkupSafe==1.1.1 #MarkupSafe implements a text object that escapes characters so it is safe to use in HTML and XML. Characters that have special meanings are replaced so that they display as the actual characters. This mitigates injection attacks, meaning untrusted user input can safely be displayed on a page.
+gunicorn==19.9.0 #wsgi server for python application
