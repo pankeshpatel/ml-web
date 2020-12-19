@@ -117,3 +117,7 @@ Tutorial Series by Total Data Science @  https://tinyurl.com/yyja24z2
 
 In this python project, we will build a grocery store management application. It will be 3 tier application,
 
+#### Flight price prediction
+
+Credit: https://github.com/Mandal-21/Flight-Price-Prediction
+
