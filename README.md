@@ -137,8 +137,13 @@ Credit: https://github.com/Mandal-21/Flight-Price-Prediction
 5. Deployment of NLP Model in Heroku Cloud: https://tinyurl.com/y8e4ebod
    
    Github Repo: https://github.com/krishnaik06/NLP-Deployment-Heroku 
-
 6. Deployment Of ML Models In AWS EC2 Instance: https://tinyurl.com/yckfg8ls 
+7. Deployment of ML Models in GCP: https://tinyurl.com/y8gchs34
+   
+   Github Repo: https://github.com/krishnaik06/Google-Cloud-Platform-Deployment
+8. Deploying ML Models In Azure: https://tinyurl.com/ybh2nfrp
+   
+   Github Repo: https://github.com/krishnaik06/AzureDeployment
 
 
 
