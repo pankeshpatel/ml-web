@@ -20,7 +20,8 @@ Tutorial by ML guru on this @ https://tinyurl.com/y6hpsxqz
 
 #### Car-Price-Prediction
 
-Tutorial by Krish Naik @ https://www.youtube.com/watch?v=p_tpQSY1aTs
+1. Tutorial by Krish Naik @ https://www.youtube.com/watch?v=p_tpQSY1aTs
+2. Repo: https://github.com/krishnaik06/Car-Price-Prediction
 
 
 #### Forest-Fire-Prediction-Website
@@ -160,6 +161,13 @@ Credit: https://github.com/Mandal-21/Flight-Price-Prediction
 2. Keywords: ImageNet DataSet, computer vision
 3. Video: https://www.youtube.com/watch?v=Ie4-AOpPxBg
 4. Repo: https://github.com/krishnaik06/Deep-Learning-Car-Brand
+
+#### Malaria Disease Using DL End To End Projects With Deployment by Krish Naik
+
+1. Keywords: Image classification, TF, DL, flask, keras, transfer learning, restnet50
+2. Keywords: ImageNet DataSet, computer vision
+3. Video: https://www.youtube.com/watch?v=H-bcnHE6Mes
+4. Repo: https://github.com/krishnaik06/Malaria-Detection
 
 
 
