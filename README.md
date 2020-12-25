@@ -123,7 +123,10 @@ Credit: https://github.com/Mandal-21/Flight-Price-Prediction
 
 #### Deployment-flask
 
-Credit: Krish Naik - https://tinyurl.com/ycau5c5e
+Credit: 
+
+Krish Naik - https://tinyurl.com/ycau5c5e
+
 youtube:  https://tinyurl.com/yc97to6y
 
 
