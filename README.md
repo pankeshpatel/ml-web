@@ -123,17 +123,13 @@ Credit: https://github.com/Mandal-21/Flight-Price-Prediction
 
 #### Deployment-flask
 
-Credit: 
-
-Krish Naik - https://tinyurl.com/ycau5c5e
-
-youtube:  https://tinyurl.com/yc97to6y
+- Krish Naik - https://tinyurl.com/ycau5c5e
+- youtube:  https://tinyurl.com/yc97to6y
 
 #### Model Deployment Series by Krish Naik
 
-- ML/DL Model Deployment Architecture Using API's: https://tinyurl.com/yb7255py
-
-- ML/DL Model Deployment Architecture Using TFLite : https://tinyurl.com/ycbeyg4u
+1. ML/DL Model Deployment Architecture Using API's: https://tinyurl.com/yb7255py
+2. ML/DL Model Deployment Architecture Using TFLite : https://tinyurl.com/ycbeyg4u
 
 
 
