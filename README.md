@@ -18,12 +18,6 @@ Technology stack
 Tutorial by ML guru on this @ https://tinyurl.com/y6hpsxqz
 
 
-#### Car-Price-Prediction
-
-1. Tutorial by Krish Naik @ https://www.youtube.com/watch?v=p_tpQSY1aTs
-2. Repo: https://github.com/krishnaik06/Car-Price-Prediction
-
-
 #### Forest-Fire-Prediction-Website
 
 A website that predicts the probability of a forest fire taking place based on oxygen,temperature and humidity content
@@ -124,6 +118,12 @@ Credit: https://github.com/Mandal-21/Flight-Price-Prediction
 
 
 ## Excellent tutorials by Krish Naik
+
+#### Car-Price-Prediction
+
+1. Tutorial by Krish Naik @ https://www.youtube.com/watch?v=p_tpQSY1aTs
+2. Repo: https://github.com/krishnaik06/Car-Price-Prediction
+
 
 #### Deployment-flask by Krish Naik 
 
