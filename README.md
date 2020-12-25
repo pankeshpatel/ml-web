@@ -122,6 +122,9 @@ In this python project, we will build a grocery store management application. It
 
 Credit: https://github.com/Mandal-21/Flight-Price-Prediction
 
+
+## Excellent tutorials by Krish Naik
+
 #### Deployment-flask by Krish Naik 
 
 1. Repo: https://tinyurl.com/ycau5c5e
