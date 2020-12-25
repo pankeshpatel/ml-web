@@ -129,4 +129,14 @@ Krish Naik - https://tinyurl.com/ycau5c5e
 
 youtube:  https://tinyurl.com/yc97to6y
 
+#### Model Deployment Series by Krish Naik
+
+- ML/DL Model Deployment Architecture Using API's: https://tinyurl.com/yb7255py
+
+- ML/DL Model Deployment Architecture Using TFLite : https://tinyurl.com/ycbeyg4u
+
+
+
+
+
 
