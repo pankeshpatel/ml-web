@@ -134,7 +134,21 @@ Credit: https://github.com/Mandal-21/Flight-Price-Prediction
 4. Deployment of ML models in Heroku using FLASK: https://tinyurl.com/yc5652j7
    
    Github Repo: https://github.com/krishnaik06/Heroku-Demo
-5. 
+5. Deployment of NLP Model in Heroku Cloud: https://tinyurl.com/y8e4ebod
+   
+   Github Repo: https://github.com/krishnaik06/NLP-Deployment-Heroku 
+
+6. Deployment Of ML Models In AWS EC2 Instance: https://tinyurl.com/yckfg8ls 
+
+
+
+#### Deployment Of Movie Recommendation Model By Prashant Jha & Krish Naik
+
+1. github repo: https://github.com/dis-is-pj/Movie-Recommender-System
+2. Youtube video by Krish  Naik: https://tinyurl.com/y73mdx74
+
+
+
 
 
 
