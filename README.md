@@ -169,6 +169,26 @@ Credit: https://github.com/Mandal-21/Flight-Price-Prediction
 3. Video: https://www.youtube.com/watch?v=H-bcnHE6Mes
 4. Repo: https://github.com/krishnaik06/Malaria-Detection
 
+#### Tomato-Leaf-Disease-Prediction by Krish Naik
+
+1. Keywords: Image classification, TF, DL, flask, keras, transfer learning, restnet50
+2. Keywords: ImageNet DataSet, computer vision
+3. Video: https://www.youtube.com/watch?v=-vDwY1kOfNw
+4. Repo: https://github.com/krishnaik06/Tomato-Leaf-Disease-Prediction
+
+
+#### Cotton-Disease-Prediction-Deep-Learning by Krish Naik
+
+
+1. Keywords: Image classification, TF, DL, flask, keras, transfer learning, restnet50
+2. Keywords: ImageNet DataSet, computer vision
+3. Video: https://www.youtube.com/watch?v=-vDwY1kOfNw
+4. Repo: https://github.com/krishnaik06/Cotton-Disease-Prediction-Deep-Learning
+
+
+
+
+
 
 
 
