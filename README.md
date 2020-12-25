@@ -154,7 +154,12 @@ Credit: https://github.com/Mandal-21/Flight-Price-Prediction
 
 
 
+#### DL Project From Scratch To Deployment- Heroku(Car Brand Class) by Krish Naik
 
+1. Keywords: Image classification, TF, DL, flask, keras, transfer learning, restnet50
+2. Keywords: ImageNet DataSet, computer vision
+3. Video: https://www.youtube.com/watch?v=Ie4-AOpPxBg
+4. Repo: https://github.com/krishnaik06/Deep-Learning-Car-Brand
 
 
 
