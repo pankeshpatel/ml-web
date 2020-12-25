@@ -132,8 +132,9 @@ Credit: https://github.com/Mandal-21/Flight-Price-Prediction
 2. ML/DL Model Deployment Architecture Using TFLite : https://tinyurl.com/ycbeyg4u
 3. Premises VS IAAS (e.g., AWS, Azure) vs PAAS cloud Platforms: https://tinyurl.com/y7xakovs
 4. Deployment of ML models in Heroku using FLASK: https://tinyurl.com/yc5652j7
+   
    Github Repo: https://github.com/krishnaik06/Heroku-Demo
-5.
+5. 
 
 
 
