@@ -189,6 +189,50 @@ Credit: https://github.com/Mandal-21/Flight-Price-Prediction
 4. Repo: https://github.com/krishnaik06/Cotton-Disease-Prediction-Deep-Learning
 
 
+## Watch Me Build an AI Startup By Siraj Raval
+
+#### Watch Me Build an AI Startup
+
+- Description: This is for a doctor, which upload x-ray images to identify a disease (e.g., Pneumonia)
+
+1. Keywords: signin, payment, image classification, healthcare
+3. Video: https://tinyurl.com/ya8b3ruv
+4. Repo: https://github.com/pankeshpatel/AI_Startup_Prototype 
+
+    
+5. Flask + Stripe + User Registration + DB
+   - Flask-Stripe Repo by mjhea0: https://github.com/pankeshpatel/flask-stripe
+   
+6.  flaskSaaS by alectrocute
+   - A great starting point to build your SaaS in Flask & Python, with Stripe subscription billing.
+   - Repo: https://github.com/pankeshpatel/flaskSaaS
+
+7. Upload functionality by  bboe
+   - A simple flask app that runs on heroku and demonstrates HTTP Server-Sent Events (EventSource) protocol.
+   - Repo: https://github.com/bboe/flask-image-uploader
+
+  
+- Steps 
+
+1. Step 1 List Personal Problems
+2. Step 2 Market Research (competing products)
+3. Step 3 Buy Domain (e.g., GoDaddy)
+4. Step 4 Create Landing Page 
+    -  logo  - www.brandmark.io, 
+5. Step 5 Share Landing Page
+    -  Landing page - www.mailchimp.com
+6. Step 6 Create Business Plan
+7. Step 7 Design Pipeline
+    - User Authentication (SQL)
+    - Database (SQL)
+    - Payment (Strip)
+    - Uploads (Flask Native)
+    - Inference (Keras)
+8. Step 8 Transfer Learning (!)
+9. Step 9 Create Web App
+10. Step 10 Deploy!
+
+
 
 
 
